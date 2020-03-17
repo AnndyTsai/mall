@@ -189,3 +189,23 @@ mall项目全套学习教程连载中，关注公众号「**macrozheng**」第�
 [Apache License 2.0](https://github.com/macrozheng/mall/blob/master/LICENSE)
 
 Copyright (c) 2018-2020 macrozheng
+
+
+
+# 部署文档
+
+1：https://macrozheng.github.io/mall-learning/#/deploy/mall_deploy_docker
+
+# 部署文档的问题
+
+1：redis的问题
+
+```bash
+mall-portal/src/main/resources/application-prod.yml 文件需要设置redis超时重连时间 我设置的3000ms
+```
+
+2：nginx的问题
+
+```bash
+参考这篇博客去搭建nginx：https://blog.csdn.net/u013710784/article/details/78782793?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+```
